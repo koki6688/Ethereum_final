@@ -7,7 +7,7 @@ router.get('/',async function(req, res, next) {
 });
 
 router.get('/users',async function (req, res, next) {
-    res.render('index', { title: 'test4' });
+    res.render('index', { title: 'test5' });
 });
 
 module.exports = router;
